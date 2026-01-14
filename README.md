@@ -1,6 +1,6 @@
 # 🧠 Focus – Study & Focus Manager
 
-Focus est une application **React** conçue pour aider les étudiants (et développeurs débutants) à **retrouver de la concentration sans pression**, même lors des journées de fatigue mentale.
+Focus est une application **React** conçue pour aider les étudiants à **retrouver de la concentration sans pression**, même lors des journées de fatigue mentale.
 
 Ce projet met l’accent sur une **productivité bienveillante**, adaptée à l’énergie réelle de l’utilisateur.
 
@@ -19,9 +19,9 @@ Les outils classiques de productivité sont souvent rigides et culpabilisants.
 
 ---
 
-##  Solution apportée par FocusFlow
+##  Solution apportée par Focus
 
-FocusFlow s’adapte **à l’état de l’utilisateur**, et non l’inverse.
+Focus s’adapte **à l’état de l’utilisateur**, et non l’inverse.
 
 L’application permet de :
 
