@@ -1,75 +1,60 @@
-# React + TypeScript + Vite
+# 🧠 Focus – Study & Focus Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Focus est une application **React** conçue pour aider les étudiants (et développeurs débutants) à **retrouver de la concentration sans pression**, même lors des journées de fatigue mentale.
 
-Currently, two official plugins are available:
+Ce projet met l’accent sur une **productivité bienveillante**, adaptée à l’énergie réelle de l’utilisateur.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+##  Problème
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Beaucoup d’étudiants rencontrent :
 
-Note: This will impact Vite dev & build performances.
+* des difficultés de concentration
+* une fatigue mentale récurrente
+* une perte de motivation
+* une tendance à se culpabiliser lorsqu’ils n’arrivent pas à étudier longtemps
 
-## Expanding the ESLint configuration
+Les outils classiques de productivité sont souvent rigides et culpabilisants.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+##  Solution apportée par FocusFlow
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+FocusFlow s’adapte **à l’état de l’utilisateur**, et non l’inverse.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+L’application permet de :
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+* choisir son **niveau d’énergie du jour**
+* lancer des **sessions de focus adaptées** (15, 25 ou 45 minutes)
+* définir **jusqu’à 3 objectifs par jour** pour éviter la surcharge
+* visualiser son progrès avec des **messages positifs**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+L’objectif n’est pas d’être parfait, mais **d’avancer doucement et durablement**.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+---
+
+##  UX & Design choices
+
+* Interface minimaliste et apaisante
+* Couleurs douces selon le niveau d’énergie
+* Limitation volontaire des objectifs
+* Messages encourageants plutôt que des statistiques agressives
+
+Le design est pensé pour **réduire la charge mentale**.
+
+
+---
+
+##  Aperçu
+
+![alt text](image-1.png)
+
+
+
+> *« Tu fais de ton mieux, et c’est déjà génial. »* 💜
+
+---
+
+Merci d’avoir pris le temps de découvrir k'application Focus 🌱
