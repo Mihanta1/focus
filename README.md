@@ -57,4 +57,4 @@ Le design est pensé pour **réduire la charge mentale**.
 
 ---
 
-Merci d’avoir pris le temps de découvrir k'application Focus 🌱
+Merci d’avoir pris le temps de découvrir l'application Focus 🌱
